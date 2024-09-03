@@ -1,0 +1,321 @@
+.container {
+  text-align:center;
+  padding-top: 12%;
+  display:flex ;
+  justify-content: space-around;
+  align-items:center ;
+  
+  
+}
+#div1,#dv1, #dv2, #dv3, #dv4 {
+  display:inline-block;
+  
+  width:20%;
+  margin:0 4px;
+  cursor:pointer;
+  transition:200ms ;
+  
+  &:hover{
+      transform : scale(1.05) translate(-3px);
+  }
+  
+img{
+    border-radius : 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+       
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: white;
+}
+th, tr, td{
+    color: white;
+}
+th{
+    text-align: left;
+}
+
+ 
+ .Container{
+     width:100vw;
+     display:flex;
+     justify-content:center;
+     align-items:center;
+ }
+ .Container2{
+     width:70vw;
+     display:flex;
+     align-items:center;
+     justify-content:space-around;
+     background-color:white;
+     border-radius:15px;
+     padding:15px;
+     transition:300ms;
+     &:hover{
+       transform:scale(1.01) translateY(-3px);  
+     }
+ }
+ 
+ .C1{
+     height:150px;
+     object-fit:contain;
+     border-radius:5px;
+ }
+ .C2{
+     display:flex;
+     flex-direction:column;
+     justify-content:space-around;
+     height:150px;
+ }
+ .C3{
+     display:flex;
+     /*width:25%;*/
+     width:300px;
+     flex-direction:column;
+     justify-content:space-around;
+     height:150px;
+ }
+ .Couple{
+     display:flex;
+     width:100%;
+     justify-content:space-between;
+     align-items:center;
+ }
+ .InputArea{
+     background-color:transparent;
+     border:none;
+     outline:none;
+     margin-left:10px;
+ }
+ .SelectOptions{
+     width:180px;
+     height:25px;
+     padding:10px 10px;
+     border-radius:10px;
+     border:grey 1px solid;
+     outline:none;
+     &:active{
+     border:grey 1px solid;
+     outline:none;
+     }
+ }
+ .SelectOptions2{
+     width:200px;
+     height:40px;
+     border-radius:10px;
+     padding:0px;
+ }
+ .Button{
+     padding:10px 20px;
+     border-radius:5px;
+     transition:300ms;
+     background-color:rgb(0,100,0);
+     cursor:pointer;
+     color:white;
+     &:hover{
+         color:white;
+     background-color:rgb(0,180,0);
+     border:rgb(0, 100, 0) solid 1px;
+         transform:scale(1.02) translateY(-3px);
+     }
+     
+ }
+ 
+ 
+ 
+ .couple1 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: 25px;
+        width: 100%;
+        transition: 200ms;
+
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+
+      
+
+      .container1 {
+        background: rgb(248, 248, 248);
+        width: 50%;
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+        margin: 50px 30%;
+        border-radius: 20px;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      .InputArea1 {
+        background-color: transparent;
+        border: 1px solid #c4c4c4;
+        outline: none;
+        margin-left: 10px;
+        margin-right: 0px; 
+        height: 100%;
+        border-radius: 5px;
+        padding: 8px 5px;
+       
+      }
+      .container11 {
+        padding-left: 20px;
+        width: 50%;
+      }
+/*      .label {
+        margin-left: 0px;
+      }*/
+      #addcandidate {
+        height: 35px;
+        border-radius: 4px;
+        border: none;
+        /* font-weight: bold; */
+        background-color: #228b22;
+        color: white;
+        letter-spacing: 1.5px;
+        width: 180px;
+        font-size: 16px;
+        transition: 200ms;
+        &:hover {
+          background-color: #34b433;
+          transform: scale(1.05);
+        }
+      }
+
+      #clear {
+        height: 35px;
+        border-radius: 4px;
+        border: none;
+        /* font-weight: bold; */
+        background-color: #ce2029;
+        color: white;
+        letter-spacing: 1.5px;
+        width: 180px;
+        font-size: 16px;
+        transition: 200ms;
+        &:hover {
+          background-color: #ff0038;
+          transform: scale(1.05);
+          cursor:pointer;
+        }
+      }
+      .btn {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: 25px;
+        width: 100%;
+        
+        #addcandidate{
+            &:hover{cursor:poniter;}
+        }
+        
+      }
+
+      #file {
+/*        padding: 14px 1px;*/
+/*        width: 150px;*/
+        text-align: center;
+/*        border-radius: 4px;
+        border: 1px solid #c4c4c4;*/
+        font-size: 14px;
+        letter-spacing: 1px;
+        cursor:pointer;
+      }
+      
+      
+      select {
+        padding: 8px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: #fff;
+        margin:10px;
+ }
+ 
+ .extra {
+     user-select: none;
+     opacity: 0.7; 
+     cursor: not-allowed;
+ }
+ 
+ #city{
+     height : 40px;
+     width: 173px;
+         
+ }
+ 
+ .manageuser{
+     
+  
+ }
+ 
+  .imgdiv {
+         width: 300px;
+        height: 210px;
+       
+/*        margin: 35px 0px;
+        padding: 0px 40px;*/
+        
+        img {
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+        transition: 300ms;
+        &:hover {
+          transform: scale(1.05) translate(-3px);
+        }
+      }
+    }
+    
+
+      .outer {
+        display: flex;
+        justify-content: center;
+        align-items:center;
+/*        border:1px solid gray;*/
+        width: 50%;
+        background: rgb(248, 248, 248);
+        border-radius:10px;
+      }
+
+      .detailsdiv {
+        margin: 35px 0px;
+        padding: 0px 40px;
+        display: flex;
+        flex-direction: column;
+       
+/*        border:1px solid gray;*/
+      }
+      .d1 {
+        width: 300px;
+        padding: 20px 12px;
+        margin: 0px 12px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 18px;
+         color:black;
+        
+/*        border: 1px solid #aeaeae;*/
+
+        &:hover {
+          color: #aeaeae;
+        }
+      }
+      
+        .delcandbtn{
+        background-color: #ff3333;
+        color: #fff;
+        border: none;
+        padding: 8px 12px;
+        cursor: pointer;
+        margin-top : 20px;
+        border-radius : 5px;
+        
+    }

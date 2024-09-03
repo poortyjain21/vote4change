@@ -1,0 +1,108 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+
+ 
+    Created on : Feb 20, 2024, 9:49:12 AM
+    Author     : asus
+*/
+
+.couple1 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: 25px;
+        width: 100%;
+        transition: 200ms;
+
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+
+      body {
+        background: #4b0082;
+      }
+
+      .container1 {
+        background: rgb(248, 248, 248);
+        width: 50%;
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+        margin: 50px 30%;
+        border-radius: 20px;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .InputArea1 {
+        background-color: transparent;
+        border: 1px solid #c4c4c4;
+        outline: none;
+        margin-left: 10px;
+        margin-right: 0px;
+        height: 100%;
+        border-radius: 5px;
+        padding: 8px 5px;
+      }
+      .container11 {
+        padding-left: 20px;
+        width: 50%;
+      }
+      .label {
+        margin-left: 0px;
+      }
+      #addcandidate {
+        height: 35px;
+        border-radius: 4px;
+        border: none;
+         font-weight: bold; 
+        background-color: #228b22;
+        color: white;
+        letter-spacing: 1.5px;
+        width: 180px;
+        font-size: 16px;
+        transition: 200ms;
+        &:hover {
+          background-color: #34b433;
+          transform: scale(1.05);
+        }
+      }
+
+      #clear {
+        height: 35px;
+        border-radius: 4px;
+        border: none;
+         font-weight: bold; 
+        background-color: #ce2029;
+        color: white;
+        letter-spacing: 1.5px;
+        width: 180px;
+        font-size: 16px;
+        transition: 200ms;
+        &:hover {
+          background-color: #ff0038;
+          transform: scale(1.05);
+        }
+      }
+      .btn {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: 25px;
+        width: 100%;
+      }
+
+      #file {
+        padding: 14px 1px;
+        width: 150px;
+        text-align: center;
+        border-radius: 4px;
+        border: 1px solid #c4c4c4;
+        font-size: 14px;
+        letter-spacing: 1px;
+      }
+
